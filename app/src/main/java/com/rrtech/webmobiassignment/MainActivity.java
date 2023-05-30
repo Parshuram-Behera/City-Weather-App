@@ -154,6 +154,8 @@ public class MainActivity extends AppCompatActivity {
 
                     Picasso.get().load(Uri.parse(image)).fit().centerCrop().into(weatherIcon);
 
+                    layout.setVisibility( View.VISIBLE);
+
                     if (weatherDB.isDatabaseEmpty()) {
 
                         weatherDB.addCityDetails(location.getName(), temp, String.valueOf(current.getCloud()), image);
