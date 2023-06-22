@@ -36,6 +36,7 @@
             android:layout_alignParentEnd="true"
             android:background="@android:color/transparent"
             android:padding="9dp"
+            android:layout_marginEnd="10dp"
             android:scaleType="centerCrop"
             android:src="@drawable/search"
             app:tint="#C32C2828" />
@@ -125,6 +126,18 @@
 
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:text="© City Weather By Parshuram"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
             layout.setVisibility(View.INVISIBLE);
 
-            Toast.makeText(this, "Empty Database", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this, "Empty Database", Toast.LENGTH_SHORT).show();
 
         } else {
             String[] data = weatherDB.getData();
@@ -114,6 +114,7 @@ public class MainActivity extends AppCompatActivity {
     private void FetchData(String City) {
 
 
+//        http://api.weatherapi.com/v1/current.json?key=379cc97c919b49d79ee182817232805&q=London&aqi=no
 
 
         Retrofit retrofit = new Retrofit.Builder()
