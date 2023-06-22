@@ -1,4 +1,4 @@
-# City Weather-APP
+# City Weather-App
 This Is A Weather App , Which Shows Specific City Weather , cloud Percentage , Weather Like Icon .
 This App Uses Retrofit For Networking Call And Gson Converter For Converting into Java Objects 
 This App Has A SQLite Database , which stores the last searched City weather.
